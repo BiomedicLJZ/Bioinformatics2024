@@ -14,7 +14,7 @@ Dos años después, en 1988, se fundó el National Center for Biotechnology Info
 También en 1988, se da inicio al proyecto Genoma Humano[6] y la publicación del algoritmo FASTA por Pearson y Lipman[7].
 Finalmente en el año de 1998 Kuska y colaboradores acuñaron el término de genómica[8]
 
-![Evolución de la bioinformatica](img.png){thumbnail="true"}{ width=450 height=300}
+![Evolución de la bioinformatica](../images/img.png){thumbnail="true"}{ width=450 height=300}
 
 <sub>Figura 1. Evolución de la bioinformatica</sub>
 
