@@ -1,18 +1,22 @@
-# Introducción
+# Introducción a la Bioinformatica
 
 La bioinformatica es una disciplina que se encarga de la aplicación de la informática, la estadística y las matemáticas hacia la biología y la medicina. La bioinformatica se encarga de la gestión y análisis de datos biológicos, como secuencias de ADN, proteínas, metabolitos, etc.
 
 El primer algoritmo para poder comparar secuencias de proteínas fue publicado en 1970 por Needleman y Wunsch[1] y con el la bioinformatica nació.
 Este algoritmo fue publicado incluso un año antes de que existiera el primer precursor del internet, ARPANET. Sin embargo, el término bioinformatica no se acuñó hasta 1978 por Paulien Hogeweg y Ben Hesper en un artículo publicado en holandés[2].
 
-El Brookhaven Protein Data Bank(PDB) fue creado en 1971. El PDB es el primer banco de datos de proteínas y empezó como una base de datos de estructuras cristanlograficas de proteínas. El desarrollo de la bioinformatica avanzó de manera lenta al principio, hasta que en 1977 se publicó la primer secuencia genética completa del bacteriófago `ϕX174` por Sanger y colaboradores[3].
+El Brookhaven Protein Data Bank(PDB) fue creado en 1971. El PDB es el primer banco de datos de proteínas y empezó como una base de datos de estructuras cristalográficas de proteínas. El desarrollo de la bioinformatica avanzó de manera lenta al principio, hasta que en 1977 se publicó la primer secuencia genética completa del bacteriófago `ϕX174` por Sanger y colaboradores[3].
 A partir de ese momento, la bioinformatica ha avanzado a pasos agigantados y ha sido una de las disciplinas que más ha crecido en los últimos años.
 
-La publicación de la Reacción en Cadena de la Polimerasa por Mullis y sus colegas en 1986[4] representó un hito en la historia de la biología molecular y la bioinformatica. La PCR permitió la amplificación de secuencias de ADN de manera exponencial y fue un avance que revolucionó la biología molecular y la bioinformatica.
-En ese mismo año la base de datos SWISS-PROT fue creada por Amos Bairoch y colaboradores. SWISS-PROT fue la primera base de datos de secuencias de proteínas y fue la base de datos más importante en bioinformatica por muchos años.
-Dos años después, en 1988, se fundó el National Center for Biotechnology Information (NCBI) en los Estados Unidos[5]. El NCBI es una de las instituciones más importantes en bioinformatica y es la institución que alberga la base de datos de secuencias genéticas más grande del mundo, GenBank.
-También en 1988, se da inicio al proyecto Genoma Humano[6] y la publicación del algoritmo FASTA por Pearson y Lipman[7].
-Finalmente en el año de 1998 Kuska y colaboradores acuñaron el término de genómica[8]
+Como lo es la publicación de la Reacción en Cadena de la Polimerasa(PCR) por Mullis y sus colegas en 1986[4] la cual representó un hito en la historia de la biología molecular y la bioinformatica. La PCR permitió la amplificación de secuencias de ADN de manera exponencial y fue un avance que revolucionó la biología molecular y la bioinformatica.
+En ese mismo año la base de datos SWISS-PROT fue creada por Amos Bairoch y colaboradores, esta fue la primera base de datos de secuencias de proteínas más importante en bioinformatica por muchos años.
+
+Consecuentemente, dos años después, en 1988, se fundó el National Center for Biotechnology Information (NCBI) en los Estados Unidos[5]. El NCBI es una de las instituciones más importantes en bioinformatica y es la institución que alberga a Genbank, la base de datos de secuencias genéticas más grande del mundo.
+También en 1988, se da inicio al proyecto Genoma Humano[6] y la publicación del algoritmo FASTA por Pearson y Lipman[7], en el transcurso de ese año Kuska y colaboradores acuñaron el término de genómica[8]
+
+Mas delante en 2005, fue creada la plataforma 454 de Roche que seria conocida como la primera plataforma de secuenciación de nueva generación lanzada al mercado. Esta plataforma permitió la secuenciación masiva de genomas y fue un hito en la historia de la bioinformatica.[9]
+Tres años después, en 2008, se publicó el proceso de RNA-Seq, el cual permitió un análisis más profundo de la expresión génica profundizando el area de la bioinformatica, abriendo la puerta a nuevas disciplinas como la transcriptómica, la proteómica y la farmacogenómica.[10] 
+
 
 ![Evolución de la bioinformatica](../images/img.png){thumbnail="true"}{ width=450 height=300}
 
@@ -37,5 +41,9 @@ Finalmente en el año de 1998 Kuska y colaboradores acuñaron el término de gen
 [7] W. R. Pearson and D. J. Lipman, ‘Improved tools for biological sequence comparison.’, Proc. Natl. Acad. Sci. U.S.A., vol. 85, no. 8, pp. 2444–2448, Apr. 1988, doi: 10.1073/pnas.85.8.2444.
 
 [8] B. Kuska, ‘Beer, Bethesda, and Biology: How “Genomics” Came Into Being’, JNCI: Journal of the National Cancer Institute, vol. 90, no. 2, pp. 93–93, Jan. 1998, doi: 10.1093/jnci/90.2.93.
+
+[9] M. Totty, “A better idea,” WSJ.com. https://web.archive.org/web/20150930102312/http://www.wsj.com/public/article/SB112975757605373586-Z9c37xOR0aRxcPzd_hkq9fcF8Ls_20061024.html
+
+[10] Z. Wang, M. Gerstein, and M. Snyder, ‘RNA-Seq: a revolutionary tool for transcriptomics’, Nat Rev Genet, vol. 10, no. 1, pp. 57–63, Jan. 2009, doi: 10.1038/nrg2484.
 
 </tip>
