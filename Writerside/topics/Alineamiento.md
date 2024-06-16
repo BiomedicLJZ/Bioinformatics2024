@@ -108,6 +108,37 @@ Desventajas:
 
 ![T-Coffee](../images/alineamientos/tcoffee.png){thumbnail="true"}
 
+### Trabajando con alineamientos
+
+Cuando se trabaja con alineamientos de secuencias, es importante saber que pueden producirse diferentes fenomenos en la alineación de secuencias. Algunos de estos fenomenos incluyen:
+
+- Secuencias idénticas: Dos secuencias que son exactamente iguales.
+- Matches: Pares de nucleótidos o aminoácidos que son iguales en las dos secuencias.
+- Mismatches: Pares de nucleótidos o aminoácidos que son diferentes en las dos secuencias.
+- Inserciones/Deleciones (gaps): Regiones en las que una secuencia tiene un nucleótido o aminoácido adicional o falta uno en comparación con la otra secuencia.
+- Conservación: Regiones en las que los nucleótidos o aminoácidos son similares entre las secuencias, indicando una posible función o estructura conservada.
+
+![Alineamiento](../images/alineamientos/alineamiento.png){thumbnail="true"}
+<sub>Imagen obtenida del libro "Applied Bioinformatics de Paul M. Selzer"</sub>
+
+### Alineamiento global vs. local
+
+Existen dos enfoques principales para el alineamiento de secuencias: global y local. En el alineamiento global, se busca el mejor alineamiento entre dos secuencias en toda su longitud, lo que puede resultar en la identificación de regiones conservadas y divergentes. En el alineamiento local, se busca el mejor alineamiento en una región específica de las secuencias, lo que puede ser útil para identificar dominios conservados o regiones de interés.
+
+El alineamiento global es útil para comparar secuencias completas y determinar su similitud general, mientras que el alineamiento local es útil para identificar regiones conservadas o similares en secuencias que pueden ser muy diferentes en su totalidad.
+
+![Global vs. Local](../images/alineamientos/global_local.png){thumbnail="true"}
+
+### Algoritmos de alineamiento de secuencias
+
+Los algoritmos de alineamiento de secuencias son fundamentales para la bioinformática y se utilizan en una amplia variedad de aplicaciones, como la identificación de genes, la comparación de secuencias evolutivas y la predicción de estructuras de proteínas. Algunos de los algoritmos de alineamiento de secuencias más comunes incluyen:
+
+- Needleman-Wunsch: Un algoritmo de programación dinámica que encuentra el mejor alineamiento global entre dos secuencias.
+- Smith-Waterman: Un algoritmo de programación dinámica que encuentra el mejor alineamiento local entre dos secuencias.
+- FASTA: Un algoritmo heurístico que encuentra alineamientos locales rápidos entre secuencias.
+- BLAST: Un algoritmo heurístico que encuentra alineamientos locales rápidos entre secuencias utilizando una base de datos de secuencias.
+- Gapped BLAST: Una versión de BLAST que permite la inserción de gaps en los alineamientos.
+
 ### Conclusiones
 
 Como podemos ver existe una gran variedad de herramientas y algoritmos para realizar alineamientos de secuencias. Cada una de estas herramientas tiene sus propias ventajas y desventajas, y es importante elegir la herramienta adecuada para el tipo de secuencias que estamos analizando y los objetivos de nuestro estudio. El alineamiento de secuencias es una técnica fundamental en bioinformática y nos permite comparar secuencias de ADN y proteínas para identificar similitudes, diferencias y relaciones evolutivas.

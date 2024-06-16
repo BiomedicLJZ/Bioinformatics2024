@@ -8,7 +8,7 @@ Para ello se utilizan diferentes tipos de alineamientos, como el alineamiento lo
 
 ### Ejercicio
 
-Utilizando la herramienta de alineamiento de secuencias BLAST, localizar a que organismo y a que gen o proteína pertenece la secuencia de ADN o proteína perteecienten las siguientes secuencias:
+Utilizando la herramienta de alineamiento de secuencias [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi), localizar a que organismo y a que gen o proteína pertenece la secuencia de ADN o proteína perteecienten las siguientes secuencias:
 
 <note>
 Las secuencias en esta página han sido colocadas en un formato que permite copiarlas y pegarlas con solo oprimir el botón localizado en la esquina superior derecha de la caja de texto de la secuencia.

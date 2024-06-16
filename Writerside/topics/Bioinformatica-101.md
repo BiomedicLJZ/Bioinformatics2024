@@ -19,8 +19,10 @@ El ADN consiste en dos cadenas de nucleótidos que se combinan en una orientaci�
 
 En condiciones fisiológicas, el ADN existe como una doble hélice en la cual las dos cadenas de polinucleótidos se enrollan hacia la derecha alrededor de un eje común. El diámetro de la doble hélice es de 2 nm. A lo largo de la doble hélice, las bases opuestas están separadas por 0.34 nm y rotadas en un ángulo de 36° entre sí. La estructura helicoidal se repite cada 3.4 nm y corresponde a 10 pares de bases[1]
 
-![DNARNA](../images/DNARNA.png){thumbnail="true"}{ width=450 height=300}
+....
+![DNARNA](../images/DNARNA.png){thumbnail="true"}{ width=450 height=300}{style="display: block"}
 <sub>Imagen obtenida de [Byjus](https://byjus.com/biology/difference-between-dna-and-rna/)</sub>
+...
 
 El ADN consiste de 4 nucleótidos, Adenina(A), Timina(T), Citosina(C) y Guanina(G). Estos nucleótidos se unen mediante enlaces de hidrógeno de la siguiente manera: Adenina se une con Timina y Citosina se une con Guanina. La secuencia de estos nucleótidos es lo que determina la información genética de un organismo.
 
