@@ -19,18 +19,44 @@ El ADN consiste en dos cadenas de nucleótidos que se combinan en una orientaci�
 
 En condiciones fisiológicas, el ADN existe como una doble hélice en la cual las dos cadenas de polinucleótidos se enrollan hacia la derecha alrededor de un eje común. El diámetro de la doble hélice es de 2 nm. A lo largo de la doble hélice, las bases opuestas están separadas por 0.34 nm y rotadas en un ángulo de 36° entre sí. La estructura helicoidal se repite cada 3.4 nm y corresponde a 10 pares de bases[1]
 
-....
 ![DNARNA](../images/DNARNA.png){thumbnail="true"}{ width=450 height=300}{style="display: block"}
 <sub>Imagen obtenida de [Byjus](https://byjus.com/biology/difference-between-dna-and-rna/)</sub>
-...
 
 El ADN consiste de 4 nucleótidos, Adenina(A), Timina(T), Citosina(C) y Guanina(G). Estos nucleótidos se unen mediante enlaces de hidrógeno de la siguiente manera: Adenina se une con Timina y Citosina se une con Guanina. La secuencia de estos nucleótidos es lo que determina la información genética de un organismo.
 
 ![ADN](../images/ADN.png){thumbnail="true"}{ width=450 height=300}
 
-Las proteinas son macromoléculas que están formadas por aminoácidos. Existen 20 aminoácidos que se unen mediante enlaces peptídicos para formar las proteínas.
+## El Dogma Central de la Biología Molecular
 
-Los aminoácidos son moléculas que contienen un grupo amino (-NH2) y un grupo carboxilo (-COOH). Además, contienen un grupo R que es diferente en cada aminoácido. Este grupo R es el que determina la estructura y función de cada aminoácido.
+El Dogma Central de la Biología Molecular es un principio que describe el flujo de la información genética en los seres vivos. Este principio fue propuesto por Francis Crick en 1958 y establece que la información genética fluye del ADN al ARN y de este al ARN.
+
+El Dogma Central de la Biología Molecular se divide en tres etapas:
+
+1. **Transcripción**: En esta etapa, la información genética del ADN se copia en una molécula de ARN mensajero (mRNA). Esta copia es necesaria para poder llevar la información genética del ADN al ribosoma, donde se produce la proteína.
+2. **Traducción**: En esta etapa, la información genética del ARN mensajero se utiliza para producir una proteína. El ARN mensajero se une al ribosoma y se lee el código genético para unir los aminoácidos en la secuencia correcta.
+3. **Replicación**: En esta etapa, la información genética del ADN se copia para producir una nueva molécula de ADN. Esta etapa es necesaria para la división celular y la reproducción de los seres vivos.
+
+![DogmaCentral](../images/DogmaCentral.png){thumbnail="true"}{ width=450 height=300}
+<sub>Imagen obtenida del libro "Applied Bioinformatics de Paul M. Selzer"</sub>
+
+Las proteínas son macromoléculas que están formadas por aminoácidos. Existen 20 aminoácidos que se unen mediante enlaces peptídicos para formar las proteínas.
+
+Los aminoácidos son moléculas que contienen un grupo amino `(-NH2)` y un grupo carboxilo `(-COOH).` Además, contienen un grupo `R` que es diferente en cada aminoácido. Este grupo R es el que determina la estructura y función de cada aminoácido.
+
+Para poder formar una proteína, el RNA mensajero(mRNA) sale del núcleo de la célula y se une a un ribosoma. El ribosoma lee el mRNA y utiliza el código genético para unir los aminoácidos en la secuencia correcta. Esta secuencia de aminoácidos forma la proteína.
+
+Cada aminoácido es seleccionado dependiendo de la secuencia de nucleotidos en el mRNA. Cada secuencia de tres nucleótidos en el mRNA se llama codon y codifica para un aminoacido específico. Por ejemplo, el codon AUG codifica para el aminoacido Metionina. Esto es posible gracias a los RNA de transferencia(tRNA) que se encargan de llevar los aminoacidos al ribosoma y poseen una secuencia complementaria al codon del mRNA, esto hace que exista una correspondencia entre los codones y los aminoacidos.
+
+![tRNA](../images/bioinfo101/codonanticodon.png){thumbnail="true"}{ width=450 height=300}
+<sub>Imagen obtenida de [Wikipedia](https://es.wikipedia.org/wiki/ARN_de_transferencia)</sub>
+
+#### El código genético
+
+El código genético es el conjunto de reglas que determina cómo se traduce la información genética del ADN en proteínas. Cada triplete de nucleótidos (codón) codifica para un aminoácido específico.
+
+El código genético es universal, es decir, es el mismo para todos los seres vivos. Sin embargo, existen algunas excepciones a esta regla.
+
+![CodigoGenetico](../images/aminoacidos/genecode.png){thumbnail="true"}{ width=450 height=300}
 
 <table>
 <tr><td>Aminoácido</td><td>Abreviatura</td><td>Codones</td><td>Estructura</td></tr>
@@ -58,22 +84,7 @@ Los aminoácidos son moléculas que contienen un grupo amino (-NH2) y un grupo c
 
 Las proteínas son esenciales para la vida de los seres vivos, ya que son las encargadas de realizar la mayoría de las funciones biológicas. Estas funciones incluyen la catálisis de reacciones químicas, la replicación del ADN, la respuesta inmune, el transporte de oxígeno, entre otras.
 
-### El código genético
-
-El código genético es el conjunto de reglas que determina cómo se traduce la información genética del ADN en proteínas. Cada triplete de nucleótidos (codón) codifica para un aminoácido específico.
-
-El código genético es universal, es decir, es el mismo para todos los seres vivos. Sin embargo, existen algunas excepciones a esta regla.
-
-![CodigoGenetico](../images/aminoacidos/genecode.png){thumbnail="true"}{ width=450 height=300}
-
-<video src="https://youtu.be/tFN8tk_Rx4Q?si=oKZFMeM8uPly_7Lh"/>
-### La expresión genética
-
-La expresión genética es el proceso por el cual la información genética del ADN se utiliza para producir proteínas. Este proceso se divide en dos etapas: la transcripción y la traducción.
-
-La transcripción es el proceso por el cual se copia la información genética del ADN en una molécula de ARN. La traducción es el proceso por el cual la información genética del ARN se utiliza para producir una proteína.
-
-## La Bioinformatica en accion
+## La Bioinformatica en acción
 
 ### Análisis de secuencias
 
@@ -105,6 +116,7 @@ La bioinformatica se utiliza en medicina para el diagnóstico de enfermedades, e
 
 La bioinformatica se utiliza en agricultura para mejorar los cultivos, para desarrollar nuevas variedades de plantas y para controlar las plagas.
 
-### Medio ambiente
+### Biotecnología
 
-La bioinformatica se utiliza en medio ambiente para estudiar la biodivers
+La bioinformatica se utiliza en biotecnología para el desarrollo de nuevos productos, para la producción de alimentos y para la producción de biocombustibles.
+

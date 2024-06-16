@@ -8,17 +8,18 @@ El objetivo de este ejercicio es que el estudiante sea capaz de identificar las 
 
 Identifica las siguientes secuencias como ADN, ARN o proteína:
 
-1. 
-   >HTT-201 ENSE00001251499 exon:protein_coding
-   GCTGCCGGGACGGGTCCAAGATGGACGG
-    
-2. 
-   >HTT-201 peptide: ENSP00000347184 pep:protein_coding
-    MATLEKLMKAFESLKSFQQQQQQQQQQ
+1
+>gnl|SRA|SRR29006270.1.1C00127:115:HG3HUBCX2:2:1102:1638:1974 Biological (Biological)
+GUUGAUAGUUGAAAAUUUACAUGAAA
 
-3. 
-     >gnl|SRA|SRR29006270.1.1C00127:115:HG3HUBCX2:2:1102:1638:1974 Biological (Biological)
-    GUUGAUAGUUGAAAAUUUACAUGAAA
+2
+>HTT-201 peptide: ENSP00000347184 pep:protein_coding
+MATLEKLMKAFESLKSFQQQQQQQQQQ
+
+3.
+>HTT-201 ENSE00001251499 exon:protein_coding
+GCTGCCGGGACGGGTCCAAGATGGACGG
+
 
 ### Ejercicio 2
 
