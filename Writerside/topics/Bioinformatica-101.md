@@ -1,6 +1,6 @@
 # Bioinformatica 101
 
-## Los Fundamentos biologicos de la Bioinformatica
+## Los Fundamentos biológicos de la Bioinformatica
 
 ### Los ácidos nucleicos y las proteínas
 

@@ -8,18 +8,22 @@ El objetivo de este ejercicio es que el estudiante sea capaz de identificar las 
 
 Identifica las siguientes secuencias como ADN, ARN o proteína:
 
-1
->gnl|SRA|SRR29006270.1.1C00127:115:HG3HUBCX2:2:1102:1638:1974 Biological (Biological)
+
+1.
+```
+>gnl|SRA|SRR29006270.1.1C00127:115:HG3HUBCX2:2:1102:1638:1974
 GUUGAUAGUUGAAAAUUUACAUGAAA
-
-2
->HTT-201 peptide: ENSP00000347184 pep:protein_coding
+```
+2.
+```
+>HTT-201
 MATLEKLMKAFESLKSFQQQQQQQQQQ
-
+```
 3.
->HTT-201 ENSE00001251499 exon:protein_coding
+```
+>HTT-201 ENSE00001251499
 GCTGCCGGGACGGGTCCAAGATGGACGG
-
+```
 
 ### Ejercicio 2
 
@@ -49,6 +53,14 @@ Responder a las siguientes preguntas:
 5. ¿Qué tipo de información genética se almacena en el ADN?
 
 6. ¿Qué características estructurales diferencian al ADN, ARN y las proteínas?
+
+7. ¿Qué diferencia hay entre genoma, transcriptoma y proteoma?
+
+8. Describe que significan las siguientes siglas: mRNA, tRNA, cDNA, DNA.
+
+9. ¿Qué es la transcripción y la traducción en los organismos?
+
+10. ¿Qué es la expresión génica y cómo se relaciona con el ADN, ARN y las proteínas?
 
 ### Conclusión
 
