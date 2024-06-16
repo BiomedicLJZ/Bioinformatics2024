@@ -7,7 +7,7 @@ on:
 
 env:
   INSTANCE: 'Writerside/in'
-  ARTIFACT: 'webHelpIN2-all.zip'  # Corrected the artifact name
+  ARTIFACT: 'webHelpIN2-all.zip'
   DOCKER_VERSION: '241.16003'
 
 jobs:
@@ -25,9 +25,9 @@ jobs:
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: Writerside/in
-          artifact: webHelpIN2-all.zip  # Corrected the artifact name
-          docker-version: 241.16003
+          instance: ${{ env.INSTANCE }}
+          artifact: ${{ env.ARTIFACT }}
+          docker-version: ${{ env.DOCKER_VERSION }}
 
       - name: List contents of working directory
         run: ls -la
@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: docs
-          path: artifacts/webHelpIN2-all.zip  # Corrected the artifact name
+          path: artifacts/${{ env.ARTIFACT }}
           retention-days: 7
           if-no-files-found: warn
           compression-level: 6
