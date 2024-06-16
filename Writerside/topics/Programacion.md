@@ -5,7 +5,7 @@ Python es un lenguaje de programación de alto nivel, con una sintaxis simple y 
 Las aplicaciones de Python son muy bastas y muy variadas gracias a la cantidad de librerías y repositorios de la comunidad.
 
 
-**Por ejemplo:** *Desarrollo Web, Data Science, Bioinformatica, Procesamiento de Imagenes, etc.*
+**Por ejemplo:** *Desarrollo Web, Data Science, Bioinformática, Procesamiento de Imágenes, etc.*
 
 ---
 
@@ -20,7 +20,7 @@ Dicha facilidad y posibilidad de aplicaciones, han convertido a Python es un len
 
 
 * Lenguaje interpretado
->Python es un lenguaje interpretado, lo que significa que ejecuta directamente el código línea por línea, de forma que la línea de código siguiente no puede ser ejecutada si no hasta que la línea anterior finalice su ejecución. Si existen errores en el código del programa, su ejecución se detiene.
+>Python es un lenguaje interpretado, lo que significa que ejecuta directamente el código línea por línea, de forma que la línea de código siguiente no puede ser ejecutada sino hasta que la línea anterior finalice su ejecución. Si existen errores en el código del programa, su ejecución se detiene.
 
 * Lenguaje de alto nivel
 >Esto implica que es más cercano a los idiomas humanos que otros lenguajes de programación. Por lo tanto, los programadores no deben preocuparse sobre sus funcionalidades subyacentes, como la arquitectura y la administración de la memoria.
@@ -28,7 +28,7 @@ Dicha facilidad y posibilidad de aplicaciones, han convertido a Python es un len
 * Ordenado por jerarquía
 >Python no utiliza llaves. En su lugar, utiliza sangría para organizar los bloques
 
-* Case-Sentive
+* Case-Sensitive
 <tip> Tiene la capacidad de diferenciar entre mayúsculas y minúsculas al momento de definir o invocar una variable, función, objeto, etc.</tip>
 
 <note>
@@ -43,9 +43,9 @@ Para usar cualquier lenguaje de programación, es necesario conocer dos cosas, l
 ### Variables:
 Para definir una variable en Python es necesario tener algunas consideraciones para hacerlo de forma correcta.
 
-La comunidad de Python llegó a la convención de usar el "*snake_case*" como la forma mas popular de nombrar variables, funciones, objetos, etc.
+La comunidad de Python llegó a la convención de usar el "*snake_case*" como la forma más popular de nombrar variables, funciones, objetos, etc.
 
-Tener en cuenta que las variables jamas pueden empezar a ser definidad con un numero o simbolo, solo letras.
+Tener en cuenta que las variables jamás pueden empezar a ser definida con un número o símbolo, solo letras.
 
 ```python
 Por ejemplo:
@@ -69,21 +69,23 @@ Formas incorrectas:
 
 ### **Comentarios**
 
-Los comentarios son secciones o lineas de texto que son ignoradas al momento de la ejecución del programa, 
+Los comentarios son secciones o líneas de texto que son ignoradas al momento de la ejecución del programa, 
 son muy útiles para marcar o señalar información a lo largo del código, de igual manera, se pueden utilizar para
-desactivar líneas o secciones de código incompletas o problematicas.
+desactivar líneas o secciones de código incompletas o problemáticas.
 
 Cada lenguaje de programación suele tener combinaciones o símbolos distintos para generar comentarios, cortos y largos.
 
 En Python se generan comentarios cortos utilizando el símbolo **#** y triples comillas para los comentarios largos que a su vez,
 pueden ser utilizados en textos largos **"""** **"""**
 
-Ejemplo de uso
+Ejemplos de uso
 :
+_Comentario corto_ 
 ```Python
 print(secuencia) # Esta línea muestra la secuencia obtenida
 #print(seucencia) se detectó un error, pero, no se soluciona aún
 ```
+_Comentario largo_
 ```Python
 """
 Esta sección del código obtiene información de la base de datos 
@@ -96,7 +98,7 @@ procesar(secuencia)
 
 Una función, en programación es una sección de código reutilizable, o sea, que puede ser llamada/invocada por su nombre varias veces y en todas las ocasiones realizar la misma ejecución. Por un lado, están las funciones Built-In, que están integradas por defecto al lenguaje, sin embargo, se pueden crear funciones propias con las herramientas que el lenguaje ofrezca al programador.
 
-> Al llamar a una función siempre debe respetarse la sintaxis caracteristica, los parentesis despues del nombre de la función
+> Al llamar a una función siempre debe respetarse la sintaxis característica, los paréntesis después del nombre de la función
 
 ``` Python
  Por ejemplo: 
@@ -108,9 +110,11 @@ Una función, en programación es una sección de código reutilizable, o sea, q
 ---
 # Tipos de Datos
 ----
-En el extenso mundo de la programación existen diferentes tipos de datos y el lenguaje Python, no es la excepción, como ya se mencionó estamos trabajando con un lenguaje orientado a objetos, donde cada tipo de dato es una clase de objeto, por lo cual, si usamos numeros, es un dato, si usamos letras, es un dato, si usamos bases de datos, tambien son un dato.
+En el extenso mundo de la programación existen diferentes tipos de datos y el lenguaje Python, no es la excepción, como 
+ya se mencionó estamos trabajando con un lenguaje orientado a objetos, donde cada tipo de dato es una clase de objeto, 
+por lo cual, si usamos números, es un dato, si usamos letras, es un dato, si usamos bases de datos, también son un dato.
 
-Para introducirnos a los datos, podemos empezar con los tipos de datos principales y los mas usados en los programas básicos
+Para introducirnos a los datos, podemos empezar con los tipos de datos principales y los más usados en los programas básicos
 
 ### int( )
 >El tipo de dato *int* hace referencia los *Integers*, números enteros reales positivos o negativos, de forma que no cuentan con decimales o puntos.
@@ -120,7 +124,7 @@ num = 1
 num_1 = 2
 new_num = 10
 ```
->Tambien es posible convertir otros tipos de datos en enteros haciendo uso de la función int(*valor*), donde *valor* es el dato que se desea convertir en un número entero.
+>También es posible convertir otros tipos de datos en enteros haciendo uso de la función int(*valor*), donde *valor* es el dato que se desea convertir en un número entero.
 ```python
 variable = 10.0  #Este es un dato tipo float( )
 number = "2"   #Este es un dato tipo str( )
@@ -214,10 +218,15 @@ _(puedes copiar y pegar en una consola de python para probarlo)_
 2 ** 3 # El resultado es 8 (2³)
 ```
 
+<warning>Algunos tipos de datos no son compatibles con ciertas operaciones</warning> 
+
+<note>Algunos operadores aritméticos son compatibles de otros modos con ciertos tipos de datos</note>
+
+
 ### Condicionales {collapsible="true"}
 
 Los operadores condicionales son aquellos símbolos que nos ayudarán en la toma de decisiones sintéticas, cuestionamientos, dudas o comparaciones entre dos o más valores.
->El funcionamiendo de los operadores condicionales los orienta a solo responder con 2 valores, 1 - 0, True - False, Verdadero - Falso.
+>El funcionamiento de los operadores condicionales los orienta a solo responder con 2 valores, 1 - 0, True - False, Verdadero - Falso.
 
 Las condicionales disponibles en Python son:
 ```Javascript
@@ -229,8 +238,9 @@ A == B # Igual que
 A != B # Diferente que
 A in B # Dentro de
 ```
-**Ejemplos de uso:** _(puedes copiar y pegar en una consola de python para probarlo)_
-
+**Ejemplos de uso:** 
+:
+_(puedes copiar y pegar en una consola de python para probarlo)_
 ```Python
 10 > 5 # El resultado es True
 10 < 10 # El resultado es False
@@ -240,6 +250,7 @@ A in B # Dentro de
 [1,2,3] != [4,5,6] # El resultado es True
 "ACG" in "ATGTCTAGTAC" # El resultado es False
 ```
+
 <warning>Algunos tipos de datos no son compatibles con ciertos condicionales</warning> 
 
 ```Python
@@ -254,3 +265,144 @@ A in B # Dentro de
 len("Hola") > len("Adios") # El resultado es False
 ```
 ### Booleanos {collapsible="true"}
+
+Los operadores booleanos u operadores lógicos, en el caso de python, no se trata de símbolos, si no, de
+palabras pequeñas que tienen la capacidad de hacer comparaciones lógicas con valores lógicos estrictamente.
+
+Estos operadores son regidos por tablas de verdad y reglas muy simples.
+
+Tablas de verdad
+:
+<tabs>
+    <tab id="and" title="and">
+        El resultado de usar el operador and es Verdadero solo cuando ambos valores son verdaderos
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>AND</td>
+            </tr><tr>
+                <td>1</td>
+                <td>1</td>
+                <td>True</td>
+            </tr><tr>
+                <td>1</td>
+                <td>0</td>
+                <td>False</td>
+            </tr><tr>
+                <td>0</td>
+                <td>1</td>
+                <td>False</td>
+            </tr><tr>
+                <td>0</td>
+                <td>0</td>
+                <td>False</td>
+            </tr>
+        </table>
+    </tab>
+    <tab id="or" title="or">
+        El resultado de usar el operador or es Verdadero cuando al menos uno de los valores es verdadero
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>OR</td>
+            </tr><tr>
+                <td>1</td>
+                <td>1</td>
+                <td>True</td>
+            </tr><tr>
+                <td>1</td>
+                <td>0</td>
+                <td>True</td>
+            </tr><tr>
+                <td>0</td>
+                <td>1</td>
+                <td>True</td>
+            </tr><tr>
+                <td>0</td>
+                <td>0</td>
+                <td>False</td>
+            </tr>
+        </table>
+    </tab>
+    <tab id="not" title="not">
+        El resultado de usar el operador not, es el contrario al del valor aplicado, permuta entre 1 y 0
+        <table>
+            <tr>
+                <td>A</td>
+                <td>AND</td>
+            </tr><tr>
+                <td>True</td>
+                <td>False</td>
+            </tr><tr>
+                <td>False</td>
+                <td>True</td>
+            </tr>
+        </table>
+    </tab>
+</tabs>
+
+Los operadores booleanos disponibles en python son:
+```Javascript
+# Donde A y B son valores lógicos
+
+A and B # operador and
+A or B # operador or
+not A # operador not
+```
+
+**Ejemplos de uso:**
+:
+_(puedes copiar y pegar en una consola de python para probarlo)_
+```Python
+A > 5 and A < 10 # El resultado es veradero si el valor de A se encuentra entre 5 y 10
+"T" in codon or "U" in codon # El resultado es verdadero si las letras T o U están presentes en el codon 
+not "ACG" in "ATGTCTAGTAC" # El resultado es verdadero si el codon "ACG" falta en la secuencia
+```
+
+## Estructuras de control
+
+Python es un lenguaje con diferentes estructuras de control, las cuales pueden ayudarnos en la solución de
+diferentes problemas o situaciones.
+
+En este caso estudiamos las tres principales y más importantes del paradigma estructurado.
+
+### Secuencial
+Más que una estructura particular, se trata de la forma general en la cual código se escribe y ejecuta 
+según la lógica del lenguaje.
+
+En palabras simples, el código de python en un programa completo se ejecuta secuencialmente, una línea
+tras otra, de forma que no se ejecutará la línea de código siguiente hasta que la ejecución de la anterior
+no termine.
+
+<note>
+A diferencia de como leemos convencionalmente, el intérprete de python lee el código de derecha a izquierda,
+desde el paréntesis más interno hasta el más externo.
+</note>
+
+
+### Selectiva
+
+if
+:
+-
+
+if-else
+:
+-
+
+if-elif-else
+:
+-
+
+
+### **Iterativa**
+
+While
+:
+-
+
+For_in
+:
+-
