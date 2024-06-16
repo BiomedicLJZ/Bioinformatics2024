@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Instance Name"
+                 name="Curso de Bioinformatica"
                  start-page="Introduccion.md">
 
     <toc-element topic="Introduccion.md">
