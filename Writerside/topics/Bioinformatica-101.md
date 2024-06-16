@@ -32,28 +32,29 @@ Las proteinas son macromoléculas que están formadas por aminoácidos. Existen 
 
 Los aminoácidos son moléculas que contienen un grupo amino (-NH2) y un grupo carboxilo (-COOH). Además, contienen un grupo R que es diferente en cada aminoácido. Este grupo R es el que determina la estructura y función de cada aminoácido.
 
-|   Aminoácido    | Abreviatura |           Codones            |                 Estructura                  |
-|:---------------:|:-----------:|:----------------------------:|:-------------------------------------------:|
-|     Alanina     |     Ala     |      GCU, GCC, GCA, GCG      |      ![Alanina](../images/aminoacidos/alanina.png)      |
-|    Arginina     |     Arg     | CGU, CGC, CGA, CGG, AGA, AGG |     ![Arginina](../images/aminoacidos/arginina.png)     |
-|   Asparagina    |     Asn     |           AAU, AAC           |   ![Asparagina](../images/aminoacidos/asparagina.png)   |
-| Ácido aspártico |     Asp     |           GAU, GAC           |    ![Aspartato](../images/aminoacidos/aspartato.png)    |
-|    Cisteina     |     Cys     |           UGU, UGC           |     ![Cisteina](../images/aminoacidos/cisteina.png)     |
-|    Glutamina    |     Gln     |           CAA, CAG           |    ![Glutamina](../images/aminoacidos/glutamina.png)    |
-| Ácido glutámico |     Glu     |           GAA, GAG           |    ![Glutamato](../images/aminoacidos/glutamato.png)    |
-|     Glicina     |     Gly     |      GGU, GGC, GGA, GGG      |      ![Glicina](../images/aminoacidos/glicina.png)      |
-|    Histidina    |     His     |           CAU, CAC           |    ![Histidina](../images/aminoacidos/histidina.png)    |
-|   Isoleucina    |     Ile     |        AUU, AUC, AUA         |   ![Isoleucina](../images/aminoacidos/isoleucina.png)   |
-|     Leucina     |     Leu     | UUA, UUG, CUU, CUC, CUA, CUG |      ![Leucina](../images/aminoacidos/leucina.png)      |
-|     Lisina      |     Lys     |           AAA, AAG           |       ![Lisina](../images/aminoacidos/lisina.png)       |
-|    Metionina    |     Met     |             AUG              |    ![Metionina](../images/aminoacidos/metionina.png)    |
-|  Fenilalanina   |     Phe     |           UUU, UUC           | ![Fenilalanina](../images/aminoacidos/fenilalanina.png) |
-|     Prolina     |     Pro     |      CCU, CCC, CCA, CCG      |      ![Prolina](../images/aminoacidos/prolina.png)      |
-|     Serina      |     Ser     | UCU, UCC, UCA, UCG, AGU, AGC |       ![Serina](../images/aminoacidos/serina.png)       |
-|    Treonina     |     Thr     |      ACU, ACC, ACA, ACG      |     ![Treonina](../images/aminoacidos/treonina.png)     |
-|   Triptófano    |     Trp     |             UGG              |   ![Triptofano](../images/aminoacidos/triptofano.png)   |
-|    Tirosina     |     Tyr     |           UAU, UAC           |     ![Tirosina](../images/aminoacidos/tirosina.png)     |
-|     Valina      |     Val     |      GUU, GUC, GUA, GUG      |       ![Valina](../images/aminoacidos/valina.png)       |
+<table>
+<tr><td>Aminoácido</td><td>Abreviatura</td><td>Codones</td><td>Estructura</td></tr>
+<tr><td>Alanina</td><td>Ala</td><td>GCU, GCC, GCA, GCG</td><td><img src="../images/aminoacidos/alanina.png" alt="Alanina" /></td></tr>
+<tr><td>Arginina</td><td>Arg</td><td>CGU, CGC, CGA, CGG, AGA, AGG</td><td><img src="../images/aminoacidos/arginina.png" alt="Arginina" /></td></tr>
+<tr><td>Asparagina</td><td>Asn</td><td>AAU, AAC</td><td><img src="../images/aminoacidos/asparagina.png" alt="Asparagina" /></td></tr>
+<tr><td>Ácido aspártico</td><td>Asp</td><td>GAU, GAC</td><td><img src="../images/aminoacidos/aspartato.png" alt="Aspartato" /></td></tr>
+<tr><td>Cisteina</td><td>Cys</td><td>UGU, UGC</td><td><img src="../images/aminoacidos/cisteina.png" alt="Cisteina" /></td></tr>
+<tr><td>Glutamina</td><td>Gln</td><td>CAA, CAG</td><td><img src="../images/aminoacidos/glutamina.png" alt="Glutamina" /></td></tr>
+<tr><td>Ácido glutámico</td><td>Glu</td><td>GAA, GAG</td><td><img src="../images/aminoacidos/glutamato.png" alt="Glutamato" /></td></tr>
+<tr><td>Glicina</td><td>Gly</td><td>GGU, GGC, GGA, GGG</td><td><img src="../images/aminoacidos/glicina.png" alt="Glicina" /></td></tr>
+<tr><td>Histidina</td><td>His</td><td>CAU, CAC</td><td><img src="../images/aminoacidos/histidina.png" alt="Histidina" /></td></tr>
+<tr><td>Isoleucina</td><td>Ile</td><td>AUU, AUC, AUA</td><td><img src="../images/aminoacidos/isoleucina.png" alt="Isoleucina" /></td></tr>
+<tr><td>Leucina</td><td>Leu</td><td>UUA, UUG, CUU, CUC, CUA, CUG</td><td><img src="../images/aminoacidos/leucina.png" alt="Leucina" /></td></tr>
+<tr><td>Lisina</td><td>Lys</td><td>AAA, AAG</td><td><img src="../images/aminoacidos/lisina.png" alt="Lisina" /></td></tr>
+<tr><td>Metionina</td><td>Met</td><td>AUG</td><td><img src="../images/aminoacidos/metionina.png" alt="Metionina" /></td></tr>
+<tr><td>Fenilalanina</td><td>Phe</td><td>UUU, UUC</td><td><img src="../images/aminoacidos/fenilalanina.png" alt="Fenilalanina" /></td></tr>
+<tr><td>Prolina</td><td>Pro</td><td>CCU, CCC, CCA, CCG</td><td><img src="../images/aminoacidos/prolina.png" alt="Prolina" /></td></tr>
+<tr><td>Serina</td><td>Ser</td><td>UCU, UCC, UCA, UCG, AGU, AGC</td><td><img src="../images/aminoacidos/serina.png" alt="Serina" /></td></tr>
+<tr><td>Treonina</td><td>Thr</td><td>ACU, ACC, ACA, ACG</td><td><img src="../images/aminoacidos/treonina.png" alt="Treonina" /></td></tr>
+<tr><td>Triptófano</td><td>Trp</td><td>UGG</td><td><img src="../images/aminoacidos/triptofano.png" alt="Triptofano" /></td></tr>
+<tr><td>Tirosina</td><td>Tyr</td><td>UAU, UAC</td><td><img src="../images/aminoacidos/tirosina.png" alt="Tirosina" /></td></tr>
+<tr><td>Valina</td><td>Val</td><td>GUU, GUC, GUA, GUG</td><td><img src="../images/aminoacidos/valina.png" alt="Valina" /></td></tr>
+</table>
 
 Las proteínas son esenciales para la vida de los seres vivos, ya que son las encargadas de realizar la mayoría de las funciones biológicas. Estas funciones incluyen la catálisis de reacciones químicas, la replicación del ADN, la respuesta inmune, el transporte de oxígeno, entre otras.
 
