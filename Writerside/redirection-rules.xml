@@ -10,4 +10,25 @@
         <description>Created after removal of "Starter" from Instance Name</description>
         <accepts>starter.html</accepts>
     </rule>
+    <rule id="3ee484a2">
+        <description>Created after removal of "Python 101: For beginners" from Bioinformatics Course 2024</description>
+        <accepts>Programacion1.html</accepts>
+    </rule>
+    <rule id="c759d71">
+        <description>Created after removal of "Ejercicio2" from Bioinformatics Course 2024</description>
+        <accepts>Ejercicio21.html</accepts>
+    </rule>
+    <rule id="2f1884dd">
+        <description>Created after removal of "Ejercicio1" from Bioinformatics Course 2024</description>
+        <accepts>Ejercicio11.html</accepts>
+    </rule>
+    <rule id="2c49c931">
+        <description>Created after removal of "Bioinformatica 101" from Bioinformatics Course 2024</description>
+        <accepts>Bioinformatica-1011.html</accepts>
+    </rule>
+    <rule id="5b95170c">
+        <description>Created after removal of "Introducción a la Bioinformatica" from Bioinformatics Course 2024
+        </description>
+        <accepts>Introduccion.html</accepts>
+    </rule>
 </rules>

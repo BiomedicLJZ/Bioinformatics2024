@@ -254,5 +254,3 @@ A in B # Dentro de
 len("Hola") > len("Adios") # El resultado es False
 ```
 ### Booleanos {collapsible="true"}
-
-

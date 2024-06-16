@@ -2,15 +2,18 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="in"
-                 name="Instance Name"
+<instance-profile id="bc2"
+                 name="Bioinformatics Course 2024"
                  start-page="Introduccion.md">
 
-    <toc-element topic="Introduccion.md">
-    </toc-element>
+    <toc-element topic="Introduccion.md"/>
     <toc-element topic="Programacion.md"/>
     <toc-element topic="Bioinformatica-101.md">
         <toc-element topic="Ejercicio1.md"/>
         <toc-element topic="Ejercicio2.md"/>
+        <toc-element topic="EjercicioTarea1.md"/>
+    </toc-element>
+    <toc-element topic="Alineamiento.md">
+        <toc-element topic="Ejercicio3.md"/>
     </toc-element>
 </instance-profile>
