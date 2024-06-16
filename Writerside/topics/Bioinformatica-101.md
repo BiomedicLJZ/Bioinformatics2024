@@ -45,7 +45,7 @@ Los aminoácidos son moléculas que contienen un grupo amino `(-NH2)` y un grupo
 
 Para poder formar una proteína, el RNA mensajero(mRNA) sale del núcleo de la célula y se une a un ribosoma. El ribosoma lee el mRNA y utiliza el código genético para unir los aminoácidos en la secuencia correcta. Esta secuencia de aminoácidos forma la proteína.
 
-Cada aminoácido es seleccionado dependiendo de la secuencia de nucleotidos en el mRNA. Cada secuencia de tres nucleótidos en el mRNA se llama codon y codifica para un aminoacido específico. Por ejemplo, el codon AUG codifica para el aminoacido Metionina. Esto es posible gracias a los RNA de transferencia(tRNA) que se encargan de llevar los aminoacidos al ribosoma y poseen una secuencia complementaria al codon del mRNA, esto hace que exista una correspondencia entre los codones y los aminoacidos.
+Cada aminoácido es seleccionado dependiendo de la secuencia de nucleótidos en el mRNA. Cada secuencia de tres nucleótidos en el mRNA se llama codon y codifica para un aminoácido específico. Por ejemplo, el codon AUG codifica para el aminoacido Metionina. Esto es posible gracias a los RNA de transferencia(tRNA) que se encargan de llevar los aminoacidos al ribosoma y poseen una secuencia complementaria al codon del mRNA, esto hace que exista una correspondencia entre los codones y los aminoacidos.
 
 ![tRNA](../images/bioinfo101/codonanticodon.png){thumbnail="true"}{ width=450 height=300}
 <sub>Imagen obtenida de [Wikipedia](https://es.wikipedia.org/wiki/ARN_de_transferencia)</sub>
