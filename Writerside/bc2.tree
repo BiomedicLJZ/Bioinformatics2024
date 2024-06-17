@@ -7,7 +7,9 @@
                  start-page="Introduccion.md">
 
     <toc-element topic="Introduccion.md"/>
-    <toc-element topic="Programacion.md"/>
+    <toc-element topic="Programacion.md">
+        <toc-element topic="Ejercicios-de-Programación.md"/>
+    </toc-element>
     <toc-element topic="Bioinformatica-101.md">
         <toc-element topic="Ejercicio1.md"/>
         <toc-element topic="Ejercicio2.md"/>

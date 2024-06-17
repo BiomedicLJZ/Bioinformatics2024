@@ -41,4 +41,3 @@ Representa en código la siguiente expresión
 \left [ 0, 5 \right )\bigcup \left (5, 10  \right ]
 ]
 </code-block>
-```

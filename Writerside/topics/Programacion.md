@@ -381,20 +381,50 @@ A diferencia de como leemos convencionalmente, el intérprete de python lee el c
 desde el paréntesis más interno hasta el más externo.
 </note>
 
+```mermaid
+graph TD
+    A((Inicio)) --> B[Proceso 1]
+    B --> C[Proceso 2]
+    C --> D[Proceso 3]
+    D --> E((Fin))
+```
 
 ### Selectiva
 
 if
 :
--
+```mermaid
+graph TD
+A[Start] --> B{Condition}
+B -->|True| C[Execute if Block]
+B -->|False| D[End]
+C --> D
+```
 
 if-else
 :
--
+```mermaid
+graph TD
+A[Start] --> B{Condition}
+B -->|True| C[Execute if Block]
+B -->|False| D[Execute else Block]
+C --> E[End]
+D --> E
+```
 
 if-elif-else
 :
--
+```mermaid
+graph TD
+    A[Start] --> B{Condition 1}
+    B -->|True| C[Execute if Block]
+    B -->|False| D{Condition 2}
+    D -->|True| E[Execute elif Block]
+    D -->|False| F[Execute else Block]
+    C --> G[End]
+    E --> G
+    F --> G
+```
 
 
 ### **Iterativa**
@@ -405,4 +435,6 @@ While
 
 For_in
 :
--
+
+Download <resource src="python102.md" type="text/markdown" /> and open
+
