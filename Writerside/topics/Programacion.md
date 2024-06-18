@@ -190,7 +190,7 @@ diccionarios: dict( ) # Conjunto de datos formato {llave : valor}
 Los operadores son los símbolos que pueden ser utilizados en python para realizar diferentes trabajos, a continuación
 se muestran los operadores aritméticos, condicionales y booleanos
 
-### Aritméticos {collapsible="true"}
+### Aritméticos 
 Los operadores aritméticos son en mayor medida los cálculos matemáticos que hacemos de manera cotidiana, definidos por un símbolo y función particular.
 
 Las operaciones disponibles en Python son:
@@ -223,7 +223,7 @@ _(puedes copiar y pegar en una consola de python para probarlo)_
 <note>Algunos operadores aritméticos son compatibles de otros modos con ciertos tipos de datos</note>
 
 
-### Condicionales {collapsible="true"}
+### Condicionales 
 
 Los operadores condicionales son aquellos símbolos que nos ayudarán en la toma de decisiones sintéticas, cuestionamientos, dudas o comparaciones entre dos o más valores.
 >El funcionamiento de los operadores condicionales los orienta a solo responder con 2 valores, 1 - 0, True - False, Verdadero - Falso.
@@ -264,7 +264,7 @@ _(puedes copiar y pegar en una consola de python para probarlo)_
 ```Python
 len("Hola") > len("Adios") # El resultado es False
 ```
-### Booleanos {collapsible="true"}
+### Booleanos 
 
 Los operadores booleanos u operadores lógicos, en el caso de python, no se trata de símbolos, si no, de
 palabras pequeñas que tienen la capacidad de hacer comparaciones lógicas con valores lógicos estrictamente.
@@ -376,11 +376,8 @@ En palabras simples, el código de python en un programa completo se ejecuta sec
 tras otra, de forma que no se ejecutará la línea de código siguiente hasta que la ejecución de la anterior
 no termine.
 
-<note>
-A diferencia de como leemos convencionalmente, el intérprete de python lee el código de derecha a izquierda,
-desde el paréntesis más interno hasta el más externo.
-</note>
-
+Ejecución
+:
 ```mermaid
 graph TD
     A((Inicio)) --> B[Proceso 1]
@@ -389,66 +386,235 @@ graph TD
     D --> E((Fin))
 ```
 
+<note>
+A diferencia de como leemos convencionalmente, el intérprete de python lee el código de derecha a izquierda,
+desde el paréntesis más interno hasta el más externo.
+</note>
+
+
 ### Selectiva
 
-if
+If
 :
+La sentencia <format style="bold" color="MediumPurple">_if_</format> (_condición_): es el bloque de condición
+**simple** de python, con solo una pregunta y una respuesta.
 ```mermaid
 graph TD
-A[Start] --> B{Condition}
-B -->|True| C[Execute if Block]
-B -->|False| D[End]
+A(Inicio) --> B{Condición}
+B -->|True| C[Ejecutar bloque if]
+B -->|False| D(Final)
 C --> D
 ```
 
-if-else
+La forma de usar if es la siguiente:
+
+````Python
+A = 10
+B = 5
+
+if A > B :
+    print("Hola")
+    
+print("Fin del programa . . .")
+````
+El código anterior muestra un bloque if, el cúal recibe la condición `A > B`, si el resultado de la comparación
+es True, entonces el contenido del bloque será ejecutado, en caso de ser False, el contenido del bloque será
+ignorado y el código continuará con normalidad.
+
+If-Else
 :
+La sentencia <format style="bold" color="MediumPurple">_if_</format> (_condición_): - <format style="bold" color="MediumPurple">_else_</format>:
+es el bloque de condición **doble**, con una pregunta y dos respuestas.
 ```mermaid
 graph TD
-A[Start] --> B{Condition}
-B -->|True| C[Execute if Block]
-B -->|False| D[Execute else Block]
-C --> E[End]
+A(Inicio) --> B{Condición}
+B -->|True| C[Ejecutar bloque if]
+B -->|False| D[Ejecutar bloque else]
+C --> E(Final)
 D --> E
 ```
 
-if-elif-else
+La forma de usar if-else es la siguiente:
+
+````Python
+A = 10
+B = 5
+
+if A%B == 0 :
+    print("Perfecto")
+else:
+    print("Imperfecto")
+    
+print("Fin del programa . . .")
+````
+El código anterior muestra un bloque if-else, el cúal recibe la condición `A%B == 0`, si el resultado de la comparación
+es True, entonces el contenido del bloque **if** será ejecutado, en el caso contrario, el bloque **else** será ejecutado.
+
+If-Elif-Else
 :
+La sentencia <format style="bold" color="MediumPurple">_if_</format> (_condición_): - <format style="bold" color="MediumPurple">_elif_</format> (_condición_): **...** <format style="bold" color="MediumPurple">_else_</format>:
+es el bloque de condición **múltiple**, con dos o más preguntas y n + 1 respuestas.
 ```mermaid
 graph TD
-    A[Start] --> B{Condition 1}
-    B -->|True| C[Execute if Block]
-    B -->|False| D{Condition 2}
-    D -->|True| E[Execute elif Block]
-    D -->|False| F[Execute else Block]
-    C --> G[End]
+    A(Inicio) --> B{Condición 1}
+    B -->|True| C[Ejecutar bloque if]
+    B -->|False| D{Condición 2}
+    D -->|True| E[Ejecutar bloque elif]
+    D -->|False| F[Ejecutar bloque else]
+    C --> G(Final)
     E --> G
     F --> G
 ```
+Una de las ventajas del bloque if-elif-else es la cantidad infinita de preguntas que pueden ser realizadas.
 
+La forma de usar if-elif-else es la siguiente:
+
+````Python
+secuencia = "ATGTCTAGTAC"
+
+if "U" in secuencia:
+    print("ARN")
+elif "T" in secuencia:
+    print("ADN")
+else:
+    print("Secuencia inválida")
+    
+print("Fin del programa . . .")
+````
+El código anterior muestra un bloque if-elif-else, el cúal recibe varias condiciones, si el resultado de la comparación
+es True en la sentencia if, entonces el contenido del bloque **if** será ejecutado y serán ignoradas el resto de preguntas, en el caso contrario, el programa ejecutará
+el bloque elif, si la comparación es verdadera, el contenido de **elif** será ejecutado y else, ignorado, pero, si nunguna
+de las preguntas llega a ser verdadera, entonces **else** será ejecutado como última acción. 
 
 ### **Iterativa**
 
 While
 :
+El **bucle** while es una estructura repetitiva condicional, esto significa que mientras la condición dada sea verdadera,
+el contenido de while será ejecutado.
 ```mermaid
 graph TD
-    A[Start] --> B{Condition}
-    B -->|True| C[Execute Block]
-    C --> D{Condition}
-    D -->|True| C
-    D -->|False| E[End]
-    B -->|False| E
+A(Inicio) --> B{Condición}
+B -->|True| C[Ejecutar bloque while]
+C --> B{Condición}
+B -->|False| E(Final)
 ```
+El funcionamiento de while implica que si la condición es True todo el tiempo, la cantidad de veces que se ejecute podrían
+ser infinitas, llegando a generar pausas indefinidas en el programa, misma razón por la cual se le conoce como **bucle**.
 
-For in
+
+La forma de usar while es la siguiente:
+
+````Python
+datos = [1, 2, 10, 5, 3]
+i = 0
+a = 0
+n = len(datos)
+
+while i < n:
+    print(datos[i])
+
+print("Fin del programa . . .")
+````
+El código anterior muestra un bloque while, estos bloques se caracterizan por la necesidad de tres variables particulares,
+el contador `i`, el limitador `n` y el acumulador `a`; while, al ser un bucle condicional es posible usarlo en diversas
+aplicaciones que requieren reintentar el proceso hasta que el resultado deseado no es obtenido, lo cuál puede llevar algunos
+pocos o infinitos intentos, en el ejemplo anterior podemos ver el modo "contador" de while, simulando el funcionamiento de
+for_in con algunos pasos extras.
+
+````Python
+while True:
+    numA = int(input("Ingrese un número entero: "))
+    numB = int(input("Ingrese otro número entero: "))
+    
+    print(f"La suma de {numA} + {numB} = {numA + numB}")
+    
+    opcion = input("Desea repetir el programa? [Y/N]:  ")
+    
+    if opcion == "N":
+        break
+        
+print("Fin del programa . . .")
+````
+
+El ejemplo anterior muestra el uso de while en modo "infinito", esto es cuando se le otorga un valor lógico directamente
+en vez de una condición, este modo es utíl para entrar en bucles infinitos controlados desde el interior usando `break` o `continue`.
+
+Además, podemos observar la presencia de las funciones de entrada y salida `E/S - I/O`, `input( )` y `print( )` respectivamente.
+
+<note>
+Existen palabras reservadas exclusivamente para las estructuras iterativas como lo son 
+<format style="bold">break</format> y <format style="bold">continue</format>.
+<deflist>
+    <def title="Break">
+        break, es la palabra reservada para "romper" la ejecución de los bloques while y for, para ser
+        usada solo es necesario buscar la forma de llamarla durante la ejecución del bloque, una forma
+        sencilla de manejarlo es con un bloque if, si la condición es cumplida, ¡break al programa!
+    </def>
+    <def title="Continue">
+        continue es la palabra reservada para "saltar" vueltas sin detener la ejecución del bloque,
+        digamos que si cierta condición se cumple no queremos que esa vuelta en particular sea realizada, pero
+        tampoco que se detenga todo, si no, solo evitar esa ejecución en particular.
+    </def>
+</deflist>
+</note>
+
+For_in
 :
-<code-block lang="mermaid">
+El **ciclo** for, una estructura iterativa con una lógica fija, a diferencia del bucle while, este necesita iterar a través
+de una secuencia o colección de datos, que será enviada a su variable auxiliar  un dato a la vez e introducida a la ejecución del bloque for
+```mermaid
 graph TD
-    A[Start] --> B{Condition}
-    B -->|True| C[Execute Block]
-    C --> D{Condition}
-    D -->|True| C
-    D -->|False| E[End]
-    B -->|False| E
-</code-block>
+A(Inicio) --> B((Iterar))
+B -->|i > n| C[Ejecutar bloque for]
+C --> B((Iterar))
+B -->|i < n| E(Final)
+```
+donde _i_ es la variable auxiliar y _n_ la cantidad de valores en la secuencia.
+
+La forma de usar for_in es la siguiente:
+
+````Python
+datos = [1, 2, 10, 5, 3]
+
+for variable_aux in datos:
+    print(variable_aux)
+    
+print("Fin del programa . . .")
+````
+El código anterior muestra un **ciclo** for, donde la variable auxiliar es `variable_aux` la cual tomará cada uno de los
+valores de `datos` a cada "vuelta" y los mostrará por medio de `print( )`
+
+<note>
+Es posible usar como secuencia cualquier tipo de dato que sea de comportamiento 
+<format style="bold">iterable</format>, es decir que contenga a más objetos en su interior, por ejemplo:
+listas, tuplas, sets, diccionarios, cadenas, etc.
+</note>
+
+El ciclo for_in de python es apreciado en diversas áreas, debido a su simplicidad es posible hacer procesamientos extensos
+usando solo ciclos for_in
+
+```Python
+matriz = []
+size = 5
+
+for i in range(size):
+    matriz.append([])
+    for j in range(size):
+        matriz[i].append(j+i)
+
+print(matriz)
+```
+El ejemplo anterior es un programa sencillo con la capacidad de generar matrices númericas cuadradas con tamaño `size`
+y valores, 
+
+¿cómo haríamos si quisiéramos acceder a cada uno de esos valores?
+
+```Python
+matriz = []
+
+for fila in matriz:
+    for col in fila:
+        print(col)
+```
+{collapsible="true" collapsed-title="Acceso Matriz"}
