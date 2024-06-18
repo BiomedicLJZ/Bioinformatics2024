@@ -431,10 +431,24 @@ graph TD
 
 While
 :
--
+```mermaid
+graph TD
+    A[Start] --> B{Condition}
+    B -->|True| C[Execute Block]
+    C --> D{Condition}
+    D -->|True| C
+    D -->|False| E[End]
+    B -->|False| E
+```
 
-For_in
+For in
 :
-
-Download <resource src="python102.md" type="text/markdown" /> and open
-
+<code-block lang="mermaid">
+graph TD
+    A[Start] --> B{Condition}
+    B -->|True| C[Execute Block]
+    C --> D{Condition}
+    D -->|True| C
+    D -->|False| E[End]
+    B -->|False| E
+</code-block>
