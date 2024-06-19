@@ -8,7 +8,7 @@ En este ejercicio vamos a descargar una secuencia de ADN de la base de datos del
 
 Para acceder a la base de datos del NCBI, vamos a utilizar el siguiente enlace: [NCBI](https://www.ncbi.nlm.nih.gov/).
 
-![NCBI](../images/ejercicio1/ncbi.png){thumbnail="true"}
+![NCBI](../images/ejercicio1/NCBI.png){thumbnail="true"}
 
 ## Paso 2: Buscar la secuencia de ADN
 
@@ -18,7 +18,7 @@ Una vez en la página del NCBI, vamos a utilizar el cuadro de búsqueda para bus
 
 Ya en esta pestaña, vamos a buscar el apartado de `Genomic Regions, transcripts, and products` y seleccionamos la opción de `FASTA` en el apartado de **Go to nucleotide**.
 
-![FASTA](../images/ejercicio1/fasta.png){thumbnail="true" style="display:block"}
+![FASTA](../images/ejercicio1/FASTA.png){thumbnail="true" style="display:block"}
 
 ## Paso 3: Descargar la secuencia de ADN
 
