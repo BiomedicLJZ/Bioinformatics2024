@@ -11,16 +11,20 @@ Las herramientas de alineamiento de secuencias son fundamentales en el campo de 
 
 #### BLAST (Basic Local Alignment Search Tool)
    Descripción y uso:
-   BLAST es una de las herramientas más utilizadas para el alineamiento de secuencias. Permite buscar rápidamente similitudes entre una secuencia de consulta y una base de datos de secuencias. Existen varias versiones de BLAST, incluyendo BLASTn para secuencias de nucleótidos, BLASTp para secuencias de proteínas, BLASTx, tBLASTn y tBLASTx para alineamientos entre secuencias de nucleótidos y proteínas.
+   BLAST es una de las herramientas más utilizadas para el alineamiento de secuencias. 
+   Permite buscar rápidamente similitudes entre una secuencia de consulta y una base de datos de secuencias. 
+   Existen varias versiones de BLAST, incluyendo BLASTn para secuencias de nucleótidos, BLASTp para secuencias de proteínas, `BLASTx`, `tBLASTn` y `tBLASTx` para alineamientos entre secuencias de nucleótidos y proteínas.
 
-Algoritmo:
-BLAST utiliza un algoritmo de alineamiento local. Se basa en identificar fragmentos de la secuencia de consulta (palabras) que coinciden exactamente con fragmentos en la base de datos. Posteriormente, estos fragmentos se extienden en ambas direcciones para encontrar regiones de mayor similitud. BLAST utiliza una puntuación basada en matrices de sustitución (como BLOSUM o PAM) y penalizaciones por apertura y extensión de brechas.
+   Algoritmo:
+   BLAST utiliza un algoritmo de alineamiento local. Se basa en identificar fragmentos de la secuencia de consulta (palabras) que coinciden exactamente con fragmentos en la base de datos. 
+   Posteriormente, estos fragmentos se extienden en ambas direcciones para encontrar regiones de mayor similitud. 
+   BLAST utiliza una puntuación basada en matrices de sustitución (como BLOSUM o PAM) y penalizaciones por apertura y extensión de brechas.
 
-Ventajas:
+   Ventajas:
 
-- Rápido y eficiente, adecuado para búsquedas en grandes bases de datos.
-- Amplia disponibilidad y fácil de usar, con interfaces web y de línea de comandos.
-- Permite la comparación tanto de secuencias de nucleótidos como de proteínas.
+   - Rápido y eficiente, adecuado para búsquedas en grandes bases de datos.
+   - Amplia disponibilidad y fácil de usar, con interfaces web y de línea de comandos.
+   - Permite la comparación tanto de secuencias de nucleótidos como de proteínas.
 
 Desventajas:
 
