@@ -16,7 +16,12 @@ Una vez en la página del NCBI, vamos a utilizar el cuadro de búsqueda para bus
 
 ![Busqueda](../images/ejercicio1/busquedalac.png){thumbnail="true"}
 
-Ya en esta pestaña, vamos a buscar el apartado de `Genomic Regions, transcripts, and products` y seleccionamos la opción de `FASTA` en el apartado de **Go to nucleotide**.
+Ya en esta pestaña, vamos a buscar el apartado de `Genomic Regions, transcripts, and products`.
+
+![GENOMICA](../images/ejercicio1/Genomics.png){thumbnail="true"}
+
+
+Ahora seleccionamos la opción de `FASTA` en el apartado de **Go to nucleotide**.
 
 ![FASTA](../images/ejercicio1/FASTA.png){thumbnail="true" style="display:block"}
 
