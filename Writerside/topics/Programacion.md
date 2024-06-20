@@ -9,7 +9,9 @@ Las aplicaciones de Python son muy bastas y muy variadas gracias a la cantidad d
 
 ---
 
-![imagen](img2.jpg){thumbnail="true"}{ width=450 height=300}{style="block"}
+![imagen](../images/img2.jpg){thumbnail="true"}
+{ width=450 height=300}{style="block"}
+
 <sub>Figura 2. Demanda de lenguajes de programación | 1er Trimestre de 2024</sub>
 
 Dicha facilidad y posibilidad de aplicaciones, han convertido a Python es un lenguaje de programación muy popular.
