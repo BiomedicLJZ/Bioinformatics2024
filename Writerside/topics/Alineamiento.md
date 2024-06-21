@@ -26,7 +26,7 @@ Las herramientas de alineamiento de secuencias son fundamentales en el campo de 
    - Amplia disponibilidad y fácil de usar, con interfaces web y de línea de comandos.
    - Permite la comparación tanto de secuencias de nucleótidos como de proteínas.
 
-Desventajas:
+   Desventajas:
 
 - No siempre encuentra el mejor alineamiento global.
 - Menos sensible para detectar similitudes distantes debido a su enfoque en alineamientos locales.

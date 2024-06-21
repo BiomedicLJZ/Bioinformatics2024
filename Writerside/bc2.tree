@@ -19,4 +19,5 @@
     <toc-element topic="Alineamiento.md">
         <toc-element topic="Ejercicio3.md"/>
     </toc-element>
+    <toc-element topic="Linux-101.md"/>
 </instance-profile>
